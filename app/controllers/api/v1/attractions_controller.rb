@@ -1,23 +1,23 @@
 class Api::V1::AttractionsController < ApplicationController
   def index
     @attractions = Attraction.all
-    render json: @projects
+    render json: @attractions
   end
 
   def show
     @attraction = Attraction.find(params[:id])
-    render json: @projects
+    render json: @attraction
   end
 
   def create
     @attraction = Attraction.create(attraction_params)
-    render json: @projects
+    render json: @attraction
   end
 
   def update
     @attraction = Attraction.find(params[:id])
     @attraction.update(attraction_params)
-    render json: @projects
+    render json: @attraction
   end
 
   def destroy
