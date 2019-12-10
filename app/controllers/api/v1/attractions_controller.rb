@@ -22,7 +22,7 @@ class Api::V1::AttractionsController < ApplicationController
 
   def destroy
     get_attraction.destroy
-    flash[:notice] = "You have deleted this project"
+    flash[:notice] = "You have deleted this attraction"
   end
 
 private

@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+leap = Attraction.new(name: "Leap Castle", country:"Ireland")
+ireland = Trip.new(trip_name: "Ireland", attraction_id: 1)
