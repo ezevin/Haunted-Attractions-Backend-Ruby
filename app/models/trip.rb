@@ -1,3 +1,3 @@
 class Trip < ApplicationRecord
-  # has_many :attractions
+  has_many :attractions
 end

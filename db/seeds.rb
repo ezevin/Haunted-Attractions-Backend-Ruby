@@ -8,4 +8,5 @@
 
 
 leap = Attraction.new(name: "Leap Castle", country:"Ireland")
-ireland = Trip.new(trip_name: "Ireland", attraction_id: 1)
+ireland = Trip.create(trip_name: "Ireland", attraction_id: 1)
+jane = User.create(username: "jill", password_digest: "wow")
